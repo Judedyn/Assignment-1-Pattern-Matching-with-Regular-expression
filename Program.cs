@@ -1,4 +1,6 @@
-﻿using System;
+// “I fixed the variable names to make them consistent, added null-safety so the program will not crash if ReadLine returns null. 
+// and added more comments for better documentation.”
+using System;
 using System.IO.Pipes;
 using System.Text.RegularExpressions;
 
