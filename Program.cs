@@ -19,7 +19,7 @@ namespace RegexTesterApp
             {
                 // Ask the user for a regex pattern.
                 // If the user just presses ENTER, the program will use the default pattern.
-                Console.Write("Enter a regular expression (or press ENTER to use the default): ");
+                Console.Write($"Enter a regular expression (or press ENTER to use the default {defaulthPattren}): ");
                 string? patternInput = Console.ReadLine();
 
                 string pattern = string.IsNullOrWhiteSpace(patternInput)
